@@ -24,12 +24,13 @@
     height: 50px;
     border-radius: 4px; 
     cursor: pointer;
+     
   }
+  
+  .button { 
+    display: flex;
+    color: $color-secondary;
+    background-color: $accent-color;
+   }
    
-   .button { 
-     display: flex;
-     color: $color-secondary;
-     background-color: $accent-color;
-    }
-    
    

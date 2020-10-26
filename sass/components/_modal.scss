@@ -148,16 +148,19 @@
     /* identical to box height, or 171% */
     letter-spacing: 0.03em;
     color: $subtitle-color;
+
+    &::before {
+      display: inline-block;
+      content: "";
+      width: 16px;
+      height: 15px;
+      outline: 1px solid ;
+      margin-top: 20px;
+      margin-right: 9px;
+    }
+
   }  
-  .modal-form-policy-label::before {
-    display: inline-block;
-    content: "";
-    width: 16px;
-    height: 15px;
-    outline: 1px solid ;
-    margin-top: 20px;
-    margin-right: 9px;
-  }
+ 
   
   .modal-form-policy {
     height: 8px;
